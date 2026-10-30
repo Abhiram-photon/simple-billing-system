@@ -1,0 +1,10 @@
+INSERT INTO products (name, price) SELECT 'Rice', 60.00 WHERE NOT EXISTS (SELECT 1 FROM products WHERE name='Rice');
+INSERT INTO products (name, price) SELECT 'Sugar', 45.00 WHERE NOT EXISTS (SELECT 1 FROM products WHERE name='Sugar');
+INSERT INTO products (name, price) SELECT 'Wheat Flour', 55.00 WHERE NOT EXISTS (SELECT 1 FROM products WHERE name='Wheat Flour');
+INSERT INTO products (name, price) SELECT 'Cooking Oil', 150.00 WHERE NOT EXISTS (SELECT 1 FROM products WHERE name='Cooking Oil');
+INSERT INTO products (name, price) SELECT 'Milk', 30.00 WHERE NOT EXISTS (SELECT 1 FROM products WHERE name='Milk');
+INSERT INTO products (name, price) SELECT 'Bread', 35.00 WHERE NOT EXISTS (SELECT 1 FROM products WHERE name='Bread');
+INSERT INTO products (name, price) SELECT 'Tea Powder', 120.00 WHERE NOT EXISTS (SELECT 1 FROM products WHERE name='Tea Powder');
+INSERT INTO products (name, price) SELECT 'Soap', 40.00 WHERE NOT EXISTS (SELECT 1 FROM products WHERE name='Soap');
+INSERT INTO products (name, price) SELECT 'Biscuits', 25.00 WHERE NOT EXISTS (SELECT 1 FROM products WHERE name='Biscuits');
+INSERT INTO products (name, price) SELECT 'Salt', 20.00 WHERE NOT EXISTS (SELECT 1 FROM products WHERE name='Salt');

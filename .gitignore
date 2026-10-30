@@ -1,0 +1,11 @@
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Java/Maven output
+backend/target/
+
+# Local environment files
+.env
+.env.*
+!.env.example
